@@ -4,10 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/style.css">
     <script src="main.js" defer></script>
     <title>Image Slider</title>
 </head>
 <body>
-    
+    <div class="slider">
+        <div class="slides">
+            <!-- radios -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <!-- imgs -->
+            <div class="slide first">
+                <img src="../src/lake1.jpeg" alt="">
+            </div>
+            <div class="slide">
+                <img src="../src/lake2.jpeg" alt="">
+            </div>
+            <div class="slide">
+                <img src="../src/lake3.jpeg" alt="">
+            </div>
+            <div class="slide">
+                <img src="../src/lake4.jpeg" alt="">
+            </div>
+
+            <div class="navi-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+
+            <div class="navi">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

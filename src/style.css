@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.slider {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.slides {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+img {
+    max-height: 580px;
+    max-width: auto;
+}
